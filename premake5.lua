@@ -29,7 +29,7 @@ project "yaml-cpp"
 
     filter "configurations:Release"
         runtime "Release"
-        Optimize "On"
+        optimize "On"
 
     filter "configurations:Dist"
         runtime "Release"
